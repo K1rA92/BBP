@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Bin Packing Problem</string>
+    <string name="back">Indietro</string>
+    <string name="random">Random</string>
+    <string name="play">Play!</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="difficult">Algoritmo</string>
+    <string name="number_square">Numero Pezzi Di Carta</string>
+    <string name="n_number_square">3</string>
+    <string name="n_difficult">1</string>
+    <string name="part1">Il gioco è la trasformazione in videogioco del problema NP Completo del Bin Packing.\n</string>
+    <string name="part2">L\'obiettivo del gioco è quello di riempiere un numero di cestini con un degli
+        elementi \ngenerati randomicamente. Ai cestini possono essere scelti le variabili di grandezza \ne
+        di quantità di spazio. Deve essere scelto anche la grandezza massima dei \npesi delle carte.\n</string>
+    <string name="part31">Il gioco è composto da 2 fasi: impostazioni e gameplay.\n
+        Nella prima parte del gioco ci sono 3 variabili che sono:\n
+        - Spazio cestini : numero di spazio dentro ai cestini \n
+        - Peso carta : grandezza massima del peso della carta \n
+        - Numero bin : numero di cestini generato a inizio del gioco\n</string>
+    <string name="part32">La Seconda parte del gioco permette di giocare al videogioco attraverso \nl\'uso
+        dei pulsanti posizionati alla destra dello schermo. I pulsanti sono chiari e \nsono, in ordine, i
+        seguenti: sinistra, giù, destra e pausa/riprendi partita.\n
+        In base alla scelta del peso verrà mostrato dei pezzi di carta di varia grandezza \nvisibile
+        attraverso il colore e alla griglia che sono:\n
+        - Rosso : 1 \n
+        - Arancio : 2 \n
+        - Giallo : 3 \n
+        - Verde : 4 \n
+        - Ciano : 5 \n
+        - Magenta : 6 \n
+        Ogni pezzo di carta deve essere inserito dentro ad un cestino fino al riempimento totale.\n In
+        caso di traboccamento della carta il gioco entra nella fase di GAME OVER.\n
+    </string>
+    <string name="part4">La fine del gioco avviene in due modi:\n
+            - WIN : gioco completato inserendo ogni elemento nella giusta posizione \n
+            - GAME OVER : gioco non completato perché si è inserito un pezzo di \ncarta nella parte errata\n
+    </string>
+
+</resources>

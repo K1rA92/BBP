@@ -1,0 +1,39 @@
+Note del programma:
+
+- Non mi piace graficamente com'è fatto perché la grafica è troppo "sottile" per i miei gusti, in
+    una nuova versione aggiungerei altro spessore ai cestini;
+- I bottoni nel gioco li cambierei graficamente;
+- Sarebbe giusto implementare i comandi touch in modo da rendere più user friendly al giocatore;
+- I bordi della schermata di gioco più grandi;
+- Possibilità di aggiungere altre modalità di gameplay;
+- Mettere una schermata dei risultati;
+- Creare delle spiegazioni decenti e non fatte male;
+- Fare un refactory del codice perché secondo me è fatto male pur essendo la prima app in android;
+- Vorrei commercializzarla ma non vedrà mercato visto che "i giocatori" di oggi non amano giochi
+    così che non creano competitività;
+- Come dice un mio amico: "Essendo la tua prima app gioco non è male"
+
+Da aggiungere al programma
+
+- Eliminare la parte del bubble sort per ordinare i pezzi di carta ma non eliminarlo per  il FFD
+- Eliminare i bin dinamici e rimetterli statici
+- Eliminare il tasto bin e rendere il gioco un puzzle
+- Spostare il tasto "Right" a sinistra
+- Calcolare lo spazio per mettere 8 bin all'interno del gioco
+- Di nuovo: rendere il gioco un puzzle games
+- I bin rimangono sullo schermo dopo averli completati.
+
+- Aggiungere nuove modalità di gioco
+
+Da migliorare
+
+- Aggiungere un pulsante che mostra quanti square sono rimasti
+- Consiglio del Lenzini: è comoda una croce direzionale piuttosto di 3 pulsanti messi in verticale
+- Pulsanti della schermata di gioco più piccoli
+
+Bug
+
+- Il pulsante "Bin X" si aggiorna solamente al primo clic per colpa di un controllo
+- Si bugga ma non so dove
+
+Idee:

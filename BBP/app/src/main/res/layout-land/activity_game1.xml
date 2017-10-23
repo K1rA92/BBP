@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/tablelayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1.0"
+        >
+
+        <TableRow android:gravity="center"
+            >
+
+            <TextView
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/NumeberSquare"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:text="@string/number_square" />
+
+            <Button
+                android:id="@+id/MinusNumberSquare"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:text="@string/minus" />
+
+            <TextView
+                android:id="@+id/ValueNumberSquare"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:text="@string/n_number_square" />
+
+            <Button
+                android:id="@+id/PlusNumberSquare"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:layout_marginRight="20dp"
+                android:text="@string/plus" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center"
+            >
+
+            <TextView
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/Difficult"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:text="@string/difficult" />
+
+            <Button
+                android:id="@+id/MinusDifficult"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:text="@string/minus" />
+
+            <TextView
+                android:id="@+id/ValueDifficult"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:text="@string/n_difficult" />
+
+            <Button
+                android:id="@+id/PlusDifficult"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:layout_marginRight="20dp"
+                android:text="@string/plus" />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:weightSum="1.0"
+        android:id="@+id/BottomBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/BackMenu"
+            android:layout_weight="0.33"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="@string/back" />
+
+        <Button
+            android:layout_weight="0.33"
+            android:id="@+id/RandomValue"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:text="@string/random" />
+
+        <Button
+            android:layout_weight="0.33"
+            android:id="@+id/PlayGame"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:onClick="playTheGame"
+            android:layout_marginRight="20dp"
+            android:text="@string/play" />
+
+    </LinearLayout>
+
+</RelativeLayout>
